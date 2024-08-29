@@ -7,9 +7,9 @@ import pyrogram
 
 
 # setup
-bot_token = os.environ.get("TOKEN", "") 
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "") 
+bot_token = os.environ.get("TOKEN", "1867103850:AAFD9LdTgpYLWmbzuSlEWt7w91aunOC3e9U") 
+api_hash = os.environ.get("HASH", "d029ff3bc5680a0ac7c448415ccbc442") 
+api_id = os.environ.get("ID", "1721373") 
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
 os.system("chmod 777 ./ffmpeg/ffmpeg")
 
