@@ -1,3 +1,6 @@
 pyrogram 
 tgcrypto
 requests
+aiohttp
+Flask
+gunicorn
